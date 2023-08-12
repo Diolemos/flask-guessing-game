@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Too High</title>
+        <link rel="stylesheet" href={{url_for("static",filename="style.css")}}>
+        <link rel="stylesheet" href={{url_for("static",filename="animations.css")}}>
+    </head>
+<body>
+    {% include 'home_button.html' %}
+    <div class="container__main">
+        <h1> <span class="text-animation__too-high">Too High</span>, try again</h1> <br/>
+        <img src={{url_for('static',filename='/images/lebron_too_high.webp' )}} />
+
+
+    </div>
+    
+</body>
+</html>
